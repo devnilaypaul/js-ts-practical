@@ -29,5 +29,5 @@ let student = {
 if (student.marks >= 25) {
 	console.log(`Congratulation! You are pass in exam`);
 } else {
-	console.log(`Sorry are not eligeble`);
+	console.log(`Sorry ${student.name}! You failed the EXAM.`);
 }
